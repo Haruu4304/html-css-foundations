@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+   margin: 0%;
+   padding: 0%;
+   background-color: hsl(47, 88%, 63%);
+   font-family: "Figtree", sans-serif;
+}
+
+.background-container {
+    position: relative;
+}
+
+.card-container{
+    border: 2px solid black;
+    box-shadow: 10px 10px;
+    margin-top: 6%;
+    width: 27%;
+    margin-left: 34%;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.cardImage{
+    margin-left: 16px;
+    margin-top: 5%;
+}
+
+.cardImage img{
+    border-radius: 10px;
+}
+
+.learning-heading{
+    margin-left: 16px;
+    position: relative;
+    border-radius: 3px;
+    background-color: hsl(47, 88%, 63%);
+    width: 24%;
+    height: 2%;
+}
+
+.learning-heading p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.date{
+    margin-left: 16px;
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+}
+
+.heading{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.data{
+    margin-left: 16px;
+    margin-top: -13px;
+    font-size: 18px;
+    color: hsl(0, 0%, 50%);
+    margin-right: 14px;
+}
+
+.image-greg {
+    position: relative;
+    margin-left: 16px;
+    display: flex;
+    align-items: center; 
+}
+
+.image-greg img {
+    width: 16%; 
+    display: inline-block; 
+}
+
+.name {
+    margin-left: 15px;
+    font-weight: 700;
+    display: inline-block; 
+}
+
+
+@media (max-width: 375px) {
+
+
+    .card-container{
+        position: relative;
+        margin-top: 10%;
+    margin-left: 4%;
+    width: 88%;
+    }
+
+    .cardImage{
+        margin-left: 5%;
+    margin-top: 5.4%;
+    }
+
+    .cardImage img{
+        width: 94%;
+    }
+}
